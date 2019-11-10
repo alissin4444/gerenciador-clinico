@@ -1,0 +1,2 @@
+# gerenciador-clinico
+sequelize study
