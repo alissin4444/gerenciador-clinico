@@ -4,9 +4,9 @@ O projeto é simples e ideia central é aprimorar meus conhecimentos em node.js 
 
 // Rotas do ADM geral
   - Uma rota que permite o auto-cadastro de uma clínica
-    ++ POST -> ip+porta+"/clinicas"
+    - POST -> ip+porta+"/clinicas"
   - Uma rota que permite a visualização de todas as clínicas
-    ++ GET -> ip+porta+"/clinicas"
+    - GET -> ip+porta+"/clinicas"
   - Uma rota que permite a edição de uma clínica específica
   - Uma rota que permite a exclusão de uma clínica específica
   
