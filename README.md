@@ -14,6 +14,6 @@ O projeto é simples e a ideia central é aprimorar meus conhecimentos em node.j
   - Uma rota que permite o login de uma clínica e visualização de si
     - **GET -> ip+porta+"/app"**
   - Uma rota que permite a edição da clínica pós-login
-    - **PUT -> ip+porta+"/clinicas/:id"**
+    - **PUT -> ip+porta+"/app"**
   - Uma rota que permite a exclusão de dados da clínica pós-login
-    - **DELETE -> ip+porta+"/clinicas/:id"**
+    - **DELETE -> ip+porta+"/app"**
