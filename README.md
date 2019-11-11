@@ -7,8 +7,12 @@ O projeto é simples e a ideia central é aprimorar meus conhecimentos em node.j
     - **POST -> ip+porta+"/clinicas"**
   - Uma rota que permite a visualização de todas as clínicas
     - **GET -> ip+porta+"/clinicas"**
+  - Uma rota que permite a visualização de uma única clínica
+    - **GET -> ip+porta+"/clinicas/:idClinica"**
   - Uma rota que permite a edição de uma clínica específica
+    - **PUT -> ip+porta+"/clinicas/:idClinica
   - Uma rota que permite a exclusão de uma clínica específica
+    - **DELETE -> ip+porta+"/clinicas/:idClinica
   
   ### Rotas para o adm de uma clínica
   - Uma rota que permite o login de uma clínica e visualização de si
