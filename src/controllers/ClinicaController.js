@@ -97,18 +97,23 @@ module.exports = {
 
       const newClinic = {};
 
-      if(dbClinicData[0].email != email) { 
-        const anotherClinic = await Clinica.findAll({
-          where: {
-            email
+      if(email) {
+        if(dbClinicData[0].email != email) { 
+          const anotherClinic = await Clinica.findAll({
+            where: {
+              email
+            }
+          });
+          if(anotherClinic != false) {
+            return res.status(400).json({ message: "Email não disponível" })
           }
-        });
-        if(anotherClinic == false) {
-          newClinic.email = email
-        }else if(anotherClinic[0].email != email) {
-          newClinic.email = email
-        }
-      };
+          if(anotherClinic == false) {
+            newClinic.email = email
+          }else if(anotherClinic[0].email != email) {
+            newClinic.email = email
+          }
+        };
+      }
 
       if(dbClinicData[0].senha != senha) { newClinic.senha = senha};
       if(dbClinicData[0].nome != nome) { newClinic.nome = nome};
