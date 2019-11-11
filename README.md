@@ -12,7 +12,7 @@ O projeto é simples e a ideia central é aprimorar meus conhecimentos em node.j
   - Uma rota que permite a edição de uma clínica específica
     - **PUT -> ip+porta+"/clinicas/:idClinica"**
   - Uma rota que permite a exclusão de uma clínica específica
-    - **DELET -> ip+porta+"/clinicas/:idClinica"**
+    - **DELETE -> ip+porta+"/clinicas/:idClinica"**
   
   ### Rotas para o adm de uma clínica
   - Uma rota que permite o login de uma clínica e visualização de si
